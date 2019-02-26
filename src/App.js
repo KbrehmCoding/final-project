@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Security, SecureRoute, ImplicitCallback } from '@oktaokta-react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Login from './components/auth/Login';
 
 function onAuthRquired({history}) {
