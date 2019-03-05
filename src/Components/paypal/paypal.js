@@ -20,8 +20,7 @@ export default class Paypal extends React.Component {
         let currency = 'USD';
         let total = 1;
         const client = {
-            sandbox:    'YOUR-SANDBOX-APP-ID',
-            // production: 'YOUR-PRODUCTION-APP-ID',
+            sandbox: process.env.YOUR-SANDBOX-APP-ID
         }
         return (
             <PaypalExpressBtn env={env} client={client} currency={currency} total={total} onError={onError} onSuccess={onSuccess} onCancel={onCancel} />

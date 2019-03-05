@@ -5,6 +5,7 @@
   "dependencies": {
     "@okta/okta-react": "^1.2.0",
     "@okta/okta-signin-widget": "^2.15.0",
+    "dotenv": "^6.2.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-paypal-express-checkout": "^1.0.5",
