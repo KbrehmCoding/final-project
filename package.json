@@ -5,6 +5,7 @@
   "dependencies": {
     "@okta/okta-react": "^1.2.0",
     "@okta/okta-signin-widget": "^2.15.0",
+    "paypal-rest-sdk": "^1.8.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-router-dom": "^4.3.1",
