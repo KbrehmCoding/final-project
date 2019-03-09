@@ -4,9 +4,11 @@
   "private": true,
   "dependencies": {
     "@okta/okta-react": "^1.2.0",
-    "@okta/okta-signin-widget": "^2.16.0",
+    "@okta/okta-signin-widget": "^2.15.0",
+    "dotenv": "^6.2.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
+    "react-paypal-express-checkout": "^1.0.5",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.1.8"
   },
