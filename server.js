@@ -22,3 +22,31 @@ app.use(routes);
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
+
+app.get('/Home', function(req, res) {
+  res.send()
+})
+
+app.get('/faq', function(req, res) {
+  res.send()
+})
+
+app.get('/Dev', function(req, res) {
+  res.send()
+})
+
+app.get('/contact', function(req, res) {
+  res.send()
+})
+
+app.get('/api/search', function(req, res) {
+  res.send()
+})
+
+app.get('/user/id:', function(req, res) {
+  res.send()
+})
+
+app.get('/farmer/id:', function(req, res) {
+  res.send()
+})
